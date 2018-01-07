@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+@import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
+
+@media only screen and (max-width: 635px) {
+  .nav-pills li{
+  font-size:.6em;
+  }  
+    .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 4px;
+    
+  }
+  
+}
+
+@media only screen and (min-width: 1150px) {
+  .video {
+    max-width: 1150px;
+  }
+}
+
+.body {
+  background: white;
+}
+
+.container-fluid{
+  padding:0;
+}
+
+.Logo {
+  width:10em;
+}
+
+.nav-pills{
+  font-size:1.5em;
+  background:white;
+}
+
+.nav-pills a{
+  font-family:'Aldrich',sans-serif;
+  color:grey;
+  font-weight: bold;
+}
+
+#sectTitle {
+  margin-top:2em;
+  margin-bottom:2em;
+}
+
+h1,h2,h3,h4{
+  font-family:'Aldrich',sans-serif;
+  margin-top:0px;
+  padding-top:.2em;
+  padding-bottom:.5em;
+  color:grey;
+  text-align:center;
+  font-weight: bold;
+}
+
+svg{
+  fill:grey;
+}
+
+.btn-default{
+  padding-top:.8em;
+  border:none;
+}
+
+.profilePic {
+    width:30em;
+    padding:0em 0em 2em 0em;
+    margin-bottom:0;
+    margin: 0 auto;
+}
+
+#sectAbout{
+  background:grey;
+  color:white;
+  padding: 2em;
+  margin-bottom:0;
+}
+
+#aboutTitle{
+  color:white;
+}
+
+#aboutMe {
+  color:white;
+}
+
+p{
+  font-family:'Meera+Inimai',sans-serif;
+  font-size:1.5em;
+}
+
+#sectPortfolio {
+  padding-top:1.5em;
+}
+
+.row{
+  padding:0;
+  margin:0;
+}
+
+.image {
+  width:100%;
+  height:auto;
+}
+
+.col-sm-6
+{
+  padding:0;
+  margin:0;
+}
+
+#videoDiv{
+  padding:0;
+}
+
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin:auto;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#sectContact
+{
+  padding-top:2em;
+}
+
+.footer {
+  background:grey;
+  margin:0;
+}
+
+h4{
+  color:white;
+  text-decoration:mome;
+  padding:1em;
+  margin-bottom:0;
+}
+
+
+
+
