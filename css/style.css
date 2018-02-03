@@ -37,7 +37,7 @@
   background:white;
 }
 
-.nav-pills a{
+.nav-pills a, #back{
   font-family:'Aldrich',sans-serif;
   color:grey;
   font-weight: bold;
@@ -75,7 +75,7 @@ svg{
 }
 
 #sectAbout{
-  background:grey;
+  background:#9e9ea2;
   color:white;
   padding: 2em;
   margin-bottom:0;
@@ -118,7 +118,6 @@ p{
   padding:0;
 }
 
-
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -142,18 +141,33 @@ p{
   padding-top:2em;
 }
 
-.footer {
-  background:grey;
-  margin:0;
-}
-
 h4{
   color:white;
-  text-decoration:mome;
+  text-decoration:none;
   padding:1em;
   margin-bottom:0;
 }
 
+#back{
+  text-align:center;
+  margin-bottom:1em;
+}
+
+#back>a{
+  color:grey;
+  font-size:1em;
+}
+
+#back>a:hover{
+  color:#9e9ea2;
+  text-decoration:none;
+}
+
+
+.footer {
+  background:#545454;
+  margin:0;
+}
 
 
 
