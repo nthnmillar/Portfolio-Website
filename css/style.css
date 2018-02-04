@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
 
 @media only screen and (max-width: 635px) {
+  
   .nav-pills li{
-  font-size:.6em;
-  }  
-    .nav>li>a {
+  font-size:.65em;
+  } 
+  
+  .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 4px;
-    
+    padding-left: 2px;
   }
-  
 }
 
 @media only screen and (min-width: 1150px) {
@@ -32,7 +32,7 @@
   width:10em;
   position: relative;
   display: block;
-  padding: 13px 0px 0px 13px;
+  padding: 12px 0px 0px 12px;
 }
 
 .nav-pills{
