@@ -33,7 +33,6 @@
   width:10em;
   position: relative;
   display: block;
-  padding: 12px 0px 0px 12px;
 }
 
 .nav-pills{
@@ -45,6 +44,7 @@
   font-family:'Aldrich',sans-serif;
   color:grey;
   font-weight: bold;
+  background:white;
 }
 
 #sectTitle {
