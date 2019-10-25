@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Meera+Inimai');
 
 @media only screen and (max-width: 635px) {
-  
+
   .nav-pills li{
   font-size:.65em;
-  } 
-  
+  }
+
   .nav>li>a {
     position: relative;
     display: block;
@@ -76,6 +76,9 @@ svg{
   color:white;
   padding: 2em;
   margin-bottom:0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #aboutTitle{
@@ -170,6 +173,3 @@ h4{
 .footer {
   background:#545454;
 }
-
-
-
